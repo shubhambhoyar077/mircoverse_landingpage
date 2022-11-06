@@ -1,0 +1,23 @@
+.section{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ @media screen and (max-width: 650px) {
+    #hero{
+        background-color: gray;
+    }
+    #features{
+        background-color: gray;
+    }
+ }
+ header{
+    position: fixed;
+    width: 100%;
+ }
+ #hero{
+    padding-top: 5rem;
+ }
+
+ 
